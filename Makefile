@@ -13,12 +13,13 @@ all:
 	evince pdf/$(current).pdf & 2>/dev/null 
 
 master:
-	make prof_ts 
-	make prof_rs
-	make travis
-
-$(current):
-	pdflatex -output-directory pdf $(current).tex
+	make travis_academia_cv
+	make travis_teaching_philosophy
+	make travis_curriculum_contribution
+	make travis_publication_list
+	make travis_academia_contacts
+	make travis_research_statment_exec
+	make travis_research_statment
 
 travis_publication_list:
 	pdflatex -output-directory pdf travis_publication_list.tex
@@ -57,6 +58,11 @@ check:
 	aspell -t -c $(current).tex
 
 clean:
+	find . -name "*~" -exec rm -vf {} \;
+	find pdf ! -iname "README.md" ! -iname *.pdf -type f -exec rm -vf {} +
+	rm -vfr auto/
+
+full_clean:
 	find . -name "*~" -exec rm -vf {} \;
 	find pdf ! -iname "README.md" -type f -exec rm -vf {} +
 	rm -vfr auto/
