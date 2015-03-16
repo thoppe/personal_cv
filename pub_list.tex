@@ -1,0 +1,27 @@
+\documentclass[]{scrartcl}
+\usepackage[noheader]{cleancv}
+\usepackage[sorting=ydnt,maxbibnames=12]{biblatex}
+\bibliography{pub_list.bib}
+
+\newcommand{\CVname}{Travis Aaron Hoppe}
+
+\topmargin=-1in    % Make letterhead start about 1 inch from top of page 
+\oddsidemargin=0pt % leftmargin is 1 inch
+\textwidth=6.5in   % textwidth of 6.5in leaves 1 inch for right margin
+
+\begin{document}
+\begin{cleanCV}
+
+\LargeTitle{Publication List}
+
+\Large
+\nocite{*} 
+
+%\bibliographystyle{plainyr-rev}
+%\renewcommand{\bibname}{}
+\renewcommand{\bibfont}{\normalfont\large}
+
+\printbibliography[heading=none]
+
+\end{cleanCV}
+\end{document}
