@@ -3,9 +3,11 @@
 #current = prof_ref_contacts
 #current = prof_rs
 #current = prof_rs_exec
-current = travis
-#current = cara
+
 #current = pub_list
+
+current = travis_academia_cv
+#current = cara_resume
 
 all:
 	@make check
@@ -20,8 +22,11 @@ master:
 $(current):
 	pdflatex $(current).tex
 
-travis:
-	pdflatex -output-directory pdf travis.tex
+travis_academia_cv:
+	pdflatex -output-directory pdf travis_academia_cv.tex
+
+cara_resume:
+	pdflatex -output-directory pdf cara_resume.tex
 
 edit:
 	emacs $(current).tex &
