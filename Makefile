@@ -39,3 +39,6 @@ clean:
 push:
 	git commit -a
 	git push
+
+commit:
+	make push
