@@ -1,12 +1,11 @@
-#current = prof_ref_contacts
-#current = prof_rs
-#current = prof_rs_exec
-
-#current = travis_academia_cv
 #current = cara_resume
+#current = travis_academia_cv
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
-current = travis_publication_list
+#current = travis_publication_list
+#current = travis_academia_contacts
+#current = travis_research_statment_exec
+current = travis_research_statment
 
 all:
 	@make check
@@ -28,7 +27,16 @@ travis_publication_list:
 	pdflatex -output-directory pdf travis_publication_list.tex
 
 travis_academia_cv:
-	pdflatex -output-directory pdf travis_academia_cv.txe
+	pdflatex -output-directory pdf travis_academia_cv.tex
+
+travis_academia_contacts:
+	pdflatex -output-directory pdf travis_academia_contacts.tex
+
+travis_research_statment_exec:
+	pdflatex -output-directory pdf travis_research_statment_exec
+
+travis_research_statment:
+	pdflatex -output-directory pdf travis_research_statment
 
 travis_teaching_philosophy:
 	pdflatex -output-directory pdf travis_teaching_philosophy.tex

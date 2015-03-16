@@ -1,5 +1,5 @@
 \documentclass[]{scrartcl}
-\usepackage[noheader]{cleancv}
+\usepackage[noheader]{src/cleancv}
 \usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{siunitx}
@@ -36,7 +36,7 @@ While all-atom approaches used in state-of-the-art molecular dynamics simulation
 \SI{10}{\micro\second} per day, general purpose machines are limited to a hundredth of that time.
 Biological processes such as protein folding, crystallization, or phase separations can occur on timescales that vary from seconds to days. 
 This leaves the all-atom approach computationally intractable without significant simplification.
-\insetpicture{research_images/1AO6_cartoon}
+\insetpicture{images/research/1AO6_cartoon}
 Especially when multiscale approaches are required or if there are significant interactions with the solvent, the challenge is to develop a framework that captures the salient features of the system at hand.
 Much of my research involves reducing the complexity of such systems.
 
@@ -51,7 +51,7 @@ Accurate prediction of phase separation in a protein solution holds both great p
 Liquid-liquid phase separation is present in the cytoplasm, in the formation of mammalian cataracts and sickle-cell disease, and often a prerequisite for protein crystallization.
 Phase separation is interesting as a thermodynamically driven event and is well-studied in both a theoretical and computational context.
 The simulation of explicitly solvated systems however, is currently limited to small system sizes since each solvent molecule must be individually modeled.
-\insetpicture{research_images/macrocharge_lysozyme}
+\insetpicture{images/research/macrocharge_lysozyme}
 If the water and any ionic species is modeled implicitly, the scope of modeling can be extended to scales where the calculation of phase separations becomes feasible.
 Current theoretical treatments cover only a coarse depiction of a solvated protein; liquid state theories are usually expressed as an expansion of a simpler isotropic potential.
 In contrast, the potential interaction surface of a real protein can be highly anisotropic and is often driven by charge-charge interactions of multiple solvated proteins.
@@ -64,7 +64,7 @@ The primary goal of this project would be the prediction of phase separations an
 
 Advances in crystallography and NMR have led to a wealth of information about the folded state of well-ordered proteins.
 In general however, the prediction of secondary and tertiary structure from a primary sequence remains an open problem.
-\insetpicture{research_images/3d_example_graph.png}
+\insetpicture{images/research/3d_example_graph.png}
 This is especially true for proteins that are intrinsically disordered or have multiple metastable states.
 The topological structure of a protein is often represented as a contact map of adjacent amino acids.
 This provides a topological representation of protein structure and naturally leads to a weighted graph.
@@ -78,7 +78,7 @@ The model was sufficient to explain a primitive model of folding, but a more com
 I intend to analyze experimentally resolved protein structures in the context of their graph properties.
 As a first step towards this goal, I have developed a catalog of simple graphs and their invariant properties.
 This database has already produced a number of new and interesting invariant integer sequences and has suggested relationships between the invariants.
-\insetpicture{research_images/chromatic_zeros}
+\insetpicture{images/research/chromatic_zeros}
 I plan to extend this database to biologically relevant macromolecules.
 The preliminary work on this project has already yielded insights into the structure of RNA molecules.
 Additionally, combining the invariant database with biological function can help elucidate the complex protein structure-function relationship.
@@ -92,7 +92,7 @@ A perfect unbiased simulation would sample all the regions of phase space with t
 In practice, the computational effort involved in a typical simulation requires a bias to enhance sampling around free-energy barriers.
 As an example, the sampling in a molecular dynamics simulation can be enhanced via modifications of the potential through Umbrella Sampling, Metadynamics, or Hamiltonian Replica Exchange.
 Other techniques such as the Wang-Landu (WL) method modify the acceptance ratio of Metropolis-Hastings Monte-Carlo.
-\insetpicture{research_images/equilibrium}
+\insetpicture{images/research/equilibrium}
 In flat-histogram methods such as WL, the invariant measure is modified from the Boltzmann ensemble to the density of states.
 For glassy systems, such as the canonical Ising model, this approach has been extremely successful in the prediction of critical values.
 It is less clear what the optimal sampling method is for a generic system with a rough funneled energy landscape.

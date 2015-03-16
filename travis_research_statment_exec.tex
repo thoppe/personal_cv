@@ -1,0 +1,43 @@
+\documentclass[]{scrartcl}
+\usepackage[noheader]{src/cleancv}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{siunitx}
+
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.30} 
+
+\newcommand{\CVname}{Travis Aaron Hoppe}
+
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{}
+
+\titleformat{\section}[block]{\noindent\bfseries}{}{0em}{} 
+\titleformat{\subsection}[block]{\noindent\itshape}{}{0em}{} 
+\setlength\parindent{2ex}
+\setlength{\marginparwidth}{3.5cm}
+
+\titlespacing*{\section}
+{0pt}{1ex}{1ex}
+\titlespacing*{\subsection}
+{0pt}{1ex}{1ex}
+
+\newcommand{\insetpicture}[1]{\marginpar{\includegraphics[width=3.5cm]{#1}}}
+
+\begin{document}
+
+\begin{cleanCV}
+\LargeTitle{Research Statement: Executive Summary}
+\vspace{2em}
+
+My research plan involves three primary topics. 
+The first involves the development of improved implicit solvation models for protein-protein interactions focusing on the anisotropic nature of the electrostatic interaction.
+The goal of this project would be the prediction of both structural proprieties like the radial distribution function and thermodynamic equilibrium properties like phase separations. 
+Ideally, these models will be a function of ionic strength, pH and protein concentration.
+The second project involves an application of graph theory to the structural proprieties of macromolecules.
+The connection between the geometrical structure and the topological contact map, represented as a graph, will give insight along biologically relevant reaction coordinates.
+The final project is a proposal to develop new enhanced sampling methods for use in simulation.
+In addition to algorithmic development, I am proposing the creation of a unified set of benchmarks for all sampling algorithms to quantify the strength and applicability to a common core of problems.
+\end{cleanCV}
+
+\end{document}
