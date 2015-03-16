@@ -2,10 +2,10 @@
 #current = travis_academia_cv
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
-#current = travis_publication_list
+current = travis_publication_list
 #current = travis_academia_contacts
 #current = travis_research_statment_exec
-current = travis_research_statment
+#current = travis_research_statment
 
 all:
 	@make check
@@ -50,14 +50,11 @@ cara_resume:
 edit:
 	emacs $(current).tex &
 
+edit_bib:
+	emacs bibliography/travis_hoppe_publications.bib &
+
 check:
 	aspell -t -c $(current).tex
-
-bib:
-	pdflatex $(current).tex
-	bibtex $(current)
-	pdflatex $(current).txe
-	evince $(current).pdf & 2>/dev/null 
 
 clean:
 	find . -name "*~" -exec rm -vf {} \;
