@@ -35,3 +35,7 @@ bib:
 clean:
 	rm -vf *.aux *.log *~ *.out *.pdf *.blg *.xml *.bbl
 	rm -vfr auto/
+
+push:
+	git commit -a
+	git push
