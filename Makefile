@@ -10,18 +10,21 @@ current = travis
 all:
 	@make check
 	make $(current)
-	evince $(current).pdf & 2>/dev/null 
+	evince pdf/$(current).pdf & 2>/dev/null 
 
 master:
 	make prof_ts 
 	make prof_rs
 	make travis
 
-edit:
-	emacs $(current).tex &
-
 $(current):
 	pdflatex $(current).tex
+
+travis:
+	pdflatex -output-directory pdf travis.tex
+
+edit:
+	emacs $(current).tex &
 
 check:
 	aspell -t -c $(current).tex
@@ -33,7 +36,8 @@ bib:
 	evince $(current).pdf & 2>/dev/null 
 
 clean:
-	rm -vf *.aux *.log *~ *.out *.pdf *.blg *.xml *.bbl
+	find . -name "*~" -exec rm -vf {} \;
+	find pdf ! -iname "README.md" -type f -exec rm -vf {} +
 	rm -vfr auto/
 
 push:
