@@ -2,10 +2,11 @@
 #current = travis_academia_cv
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
-current = travis_publication_list
+#current = travis_publication_list
 #current = travis_academia_contacts
 #current = travis_research_statment_exec
 #current = travis_research_statment
+current = travis_professional_resume
 
 all:
 	@make check
@@ -29,6 +30,9 @@ travis_publication_list:
 
 travis_academia_cv:
 	pdflatex -output-directory pdf travis_academia_cv.tex
+
+travis_professional_resume:
+	pdflatex -output-directory pdf travis_professional_resume.tex
 
 travis_academia_contacts:
 	pdflatex -output-directory pdf travis_academia_contacts.tex

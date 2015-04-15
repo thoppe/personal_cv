@@ -136,6 +136,24 @@
   \vspace{1.3\WorkExperienceskip}%
 }
 
+\newcommand{\SkillSet}[2]{% 
+  \begin{samepage}
+    \MarginDate{#1}#2
+  \end{samepage}
+  \vspace{1.3\WorkExperienceskip}%
+}
+
+\newcommand{\Skill}[2]{\textbf{#1} {\small(#2)}}
+
+\newcommand{\Highlight}[2]{% 
+  \begin{samepage}
+    \textbf{#1}:
+    \small#2\par
+    %\textit{#3}\par
+  \end{samepage}
+  \vspace{1.3\WorkExperienceskip}%
+}
+
 
 
 \newcommand{\WorkExperience}[3]{%

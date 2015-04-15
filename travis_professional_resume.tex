@@ -1,0 +1,109 @@
+\documentclass[]{scrartcl}
+\usepackage{src/cleancv}
+
+%\newcommand{\CVtype}{Curriculum Vit\ae}
+%\newcommand{\CVdegrees}{PhD Physics}
+
+\newcommand{\CVtype}{\vspace{-1em}}
+\newcommand{\CVdegrees}{\vspace{-1em}}
+\newcommand{\CVname}{Travis Aaron Hoppe, P\MakeLowercase{h}.D.}
+\newcommand{\CVemail}{travis.hoppe@gmail.com}
+\newcommand{\CVphone}{$(775) \ 287\hbox{-}4033$}
+
+\titleformat{\section}[block]{\noindent\bfseries}{}{0em}{} 
+\titleformat{\subsection}[block]{\noindent\itshape}{}{0em}{} 
+
+\titlespacing*{\section}
+{0pt}{0ex}{0ex}
+\titlespacing*{\subsection}
+{0pt}{1ex}{1ex}
+
+\begin{document}
+\begin{cleanCV}
+
+\vspace{-1em}
+
+\SectionHead{Highlights}
+
+\Highlight
+{Established scientist}
+{Eleven publications (six first-author) across multiple disciplines in Nature, PLoS One, Physical Review and more.}
+
+\Highlight
+{Project leader and team coordinator}
+{Served as the principal investigator for several projects managing small teams for highly technical tasks.}
+
+\Highlight
+{Programming polyglot and dedicated analyst}
+{Highly proficient in the full scientific python/C++ stack, database backends, and data visualization. 
+Proponent for scientific standards and reproducibility.}
+
+\Highlight
+{Professional outreach}
+{Active presenter and attendee in both the data community (Data Wranglers and Hack \& Tell) and scientific enterprise (Biophysical society, American Physical Society, and more). Firm believer in STEM outreach to public schools from professionals.}
+
+\SectionHead{Education}
+
+\WorkExperience
+{2011}
+{Doctor of Philosophy, Physics}
+{Drexel University, awarded multiple scientific grants and winner of the top teaching fellow for the University.}
+
+\WorkExperience
+{2005}
+{Bachelor of Science Physics, Bachelor of Science Mathematics}
+{University of Nevada, served on student-body Senate where state-level legislation was proposed to standardize and publish professor evaluations.}
+
+
+\SectionHead{Experience}
+
+\WorkExperience
+{2014-current}
+{Postdoctoral Fellowship, Intramural Research Program}
+{
+Prestigious fellowship at the National Institutes of Health (NIH) in the Theoretical Biophysics laboratory serving under Robert Best.
+Established and published key results with our team concerning \emph{internal friction} for the protein folding problem by developing a molecular dynamics program to study proteins \emph{in silico}.
+}
+
+\WorkExperience
+{2011-2014}
+{Research Associate}
+{
+Worked in the Physical Biochemistry laboratory at the NIH with Allen Minton to develop multi-scale theoretical and computational models to study protein folding, structure, and protein-protein interactions.
+Worked in direct collaboration with experimentalists to test and validate models.
+Designed and managed large-scale parallel programming projects (3000+ cores).
+}
+
+\WorkExperience
+{2005-2011}
+{Teaching Assistant}
+{%
+  Organized, taught, and ran over 22 undergraduate courses at Drexel university.
+  Developed lesson plans and curricula.
+  Restructured the entire computational component for physics majors by transitioning from FORTRAN to Python.
+}
+
+\SectionHead{Skills}
+
+\SkillSet{Programming}{
+  \Skill{Core Languages}{Python, C++, C},
+  \Skill{Web Design} {HTML5, JavaScript, AWS},
+  \Skill{Visualization} {d3, TikZ},
+  \Skill{Database}{SQLite, HDF}, 
+  \Skill{Typesetting}{\LaTeX}
+  \Skill{Version Control}{git, mercurial}.
+}
+
+\SkillSet{Data Science}{
+  \Skill{Graph Theory}{Network Flow Analysis, Isomorphism detection, Topology},
+  \Skill{Dimensionality Reduction}{Spectral Clustering, Principal Component Analysis},
+  \Skill{Statistics}{Bayesian, Maximum Likelihood},
+  \Skill{Game Theory}{Nash Equilibrium},
+  \Skill{Supervised Learning}{Support Vector Machines, Naive Bayes}, 
+  \Skill{Natural Language Processing}{Semantic Analysis, Context Free Grammars}.
+}
+
+\end{cleanCV}
+\end{document}
+
+

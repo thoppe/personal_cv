@@ -24,4 +24,5 @@
 *.mtc
 *.mtc1
 *.out
+*.tex.bak
 pdf/*.xml
