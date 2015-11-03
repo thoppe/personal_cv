@@ -7,6 +7,7 @@
 #current = travis_research_statment_exec
 #current = travis_research_statment
 current = travis_professional_resume
+#current = travis_cover_letter_OPA
 
 all:
 	@make check
@@ -21,6 +22,9 @@ master:
 	make travis_academia_contacts
 	make travis_research_statment_exec
 	make travis_research_statment
+
+travis_cover_letter_OPA:
+	pdflatex -output-directory pdf travis_cover_letter_OPA.tex
 
 travis_publication_list:
 	pdflatex -output-directory pdf travis_publication_list.tex
