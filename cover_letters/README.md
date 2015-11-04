@@ -1,3 +1,3 @@
-#### Git source for the academic and professional CV's of [Travis Hoppe](http://thoppe.github.io/).
+#### Git source for the various cover letters I've written.
 
 ### [PDF Copies](pdf/)
