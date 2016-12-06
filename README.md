@@ -11,6 +11,9 @@
 ### Publications
 
 + Hoppe, Travis, and Anna Petrone. [Integer sequence discovery from small graphs.](http://dx.doi.org/10.1016/j.dam.2015.07.017) Discrete Applied Mathematics 201 (2016): 172-181.
+
++ Hoppe, Travis, and Allen P. Minton. [Explicit Incorporation of Hard and Soft Protein-Protein Interactions Into Models for Crowding Effects in Binary and Ternary Protein Mixtures I. Comparison of Approximate Analytical Solutions With Numerical Simulation.](http://pubs.acs.org/doi/full/10.1021/acs.jpcb.6b07736) The Journal of Physical Chemistry B (2016).
+
 + Zheng, W., De Sancho, D., Hoppe, T., & Best, R. B. (2015). [Dependence of internal friction on folding mechanism.](https://www.ncbi.nlm.nih.gov/pubmed/25721133) Journal of the American Chemical Society, 137(9), 3283-3290.
 + Hoppe, Travis, and Allen P. Minton. [An equilibrium model for the combined effect of macromolecular crowding and surface adsorption on the formation of linear protein fibrils.](http://dx.doi.org/10.1016/j.bpj.2014.12.033) Biophysical journal 108.4 (2015): 957-966.
 
