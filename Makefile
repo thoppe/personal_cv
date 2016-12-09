@@ -1,12 +1,12 @@
 #current = cara_resume
-current = travis_academia_cv
+#current = travis_academia_cv
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
 #current = travis_publication_list
 #current = travis_academia_contacts
 #current = travis_research_statment_exec
 #current = travis_research_statment
-#current = travis_professional_resume
+current = travis_professional_resume
 #current = travis_cover_letter_OPA
 
 all:
