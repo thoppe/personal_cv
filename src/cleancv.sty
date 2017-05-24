@@ -87,7 +87,7 @@
 
 
 \newcommand{\LargeTitle}[1]{{\noindent\Large\textbf{\titlecap{#1}}}}
-\newcommand{\PaperTitle}[1]{\textbf{\titlecap{#1}}}
+\newcommand{\PaperTitle}[1]{\textbf{{#1}}}
 \newcommand{\AuthorList}[1]{\textit{\nohyphens{#1}}}
 \newcommand{\PaperLink}[2]{{\href{#1}{#2}}}
 
@@ -154,14 +154,11 @@
   \vspace{1.3\WorkExperienceskip}%
 }
 
-
-
 \newcommand{\WorkExperience}[3]{%
   \begin{samepage}
-    \MarginDate{#1}%
+    \MarginDate{#1}
     \PaperTitle{#2}%
-    \newline%
-    \phantom{xx}{\small#3}
+    {\\ \small #3}
   \end{samepage}
   \vspace{\WorkExperienceskip}
 }
