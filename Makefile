@@ -1,5 +1,5 @@
-current = cara_resume
-#current = travis_academia_cv
+#current = cara_resume
+current = travis_academia_cv
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
 #current = travis_publication_list

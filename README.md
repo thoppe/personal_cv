@@ -10,6 +10,10 @@
 
 ### Publications
 
++ Hoppe, Travis, and Allen P. Minton. [Non-specific Interactions Between Macromolecular Solutes in Concentrated Solution: Physico-Chemical Manifestations and Biochemical Consequences](https://www.frontiersin.org/articles/10.3389/fmolb.2019.00010/full), Front. Mol. Biosci. 13 (2019)
+
++ Hutchins, Hoppe, Meseroll, Anderson, Santangelo. [Additional support for RCR: A validated article-level measure of scientific influence](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2003552), PLoS Bio (2017)
+
 + Hoppe, Travis, and Anna Petrone. [Integer sequence discovery from small graphs.](http://dx.doi.org/10.1016/j.dam.2015.07.017) Discrete Applied Mathematics 201 (2016): 172-181.
 
 + Hoppe, Travis, and Allen P. Minton. [Explicit Incorporation of Hard and Soft Protein-Protein Interactions Into Models for Crowding Effects in Binary and Ternary Protein Mixtures I. Comparison of Approximate Analytical Solutions With Numerical Simulation.](http://pubs.acs.org/doi/full/10.1021/acs.jpcb.6b07736) The Journal of Physical Chemistry B (2016).
@@ -30,3 +34,6 @@
 
 + Alla Safronova, Travis Hoppe, et al. [Spectroscopic and Imaging Study of Combined W and Mo-pinches at 1 MA-pinch Generators](http://dx.doi.org/10.1109/TPS.2006.878361), IEEE Transactions on Plasma Science (2006), Vol. 34, No. 5, pp. 2256-2262
 
+### Dev Notes
+
+    sudo apt install texlive-latex-base texlive-latex-recommended texlive-latex-extra
