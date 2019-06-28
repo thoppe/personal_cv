@@ -1,9 +1,9 @@
 ## [Travis Hoppe](http://thoppe.github.io/)
 
-+ [Academic CV](travis_academia_cv.pdf?raw=true)
-+ [Professional Resume](travis_professional_resume.pdf?raw=true)
-+ [Research Statement](travis_research_statment.pdf?raw=true), [(_executive summary_)](travis_research_statment_exec.pdf?raw=true)
-+ [Curriculum Contribution](travis_curriculum_contribution.pdf?raw=true)
++ [Academic CV](tex/pdf/travis_academia_cv.pdf?raw=true)
++ [Professional Resume](tex/pdf/travis_professional_resume.pdf?raw=true)
++ [Research Statement](tex/pdf/travis_research_statment.pdf?raw=true), [(_executive summary_)](tex/pdf/travis_research_statment_exec.pdf?raw=true)
++ [Curriculum Contribution](tex/pdf/travis_curriculum_contribution.pdf?raw=true)
 
 ### Publications
 
