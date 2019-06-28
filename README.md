@@ -3,12 +3,11 @@
 + [Academic CV](travis_academia_cv.pdf?raw=true)
 + [Professional Resume](travis_professional_resume.pdf?raw=true)
 + [Research Statement](travis_research_statment.pdf?raw=true), [(_executive summary_)](travis_research_statment_exec.pdf?raw=true)
-+ [Teaching Philosophy](travis_teaching_philosophy.pdf?raw=true)
 + [Curriculum Contribution](travis_curriculum_contribution.pdf?raw=true)
-+ [Publication List](travis_publication_list.pdf?raw=true)
-+ [Academic Reference List](travis_academia_contacts.pdf?raw=true) 
 
 ### Publications
+
++ Travis A. Hoppe, _et al._ "Topic Choice Contributes to Lower Rate of NIH NIH Awards to African-American/Black Scientists", Science Advances (2019), In Press
 
 + Hoppe, Travis, and Allen P. Minton. [Non-specific Interactions Between Macromolecular Solutes in Concentrated Solution: Physico-Chemical Manifestations and Biochemical Consequences](https://www.frontiersin.org/articles/10.3389/fmolb.2019.00010/full), Front. Mol. Biosci. 13 (2019)
 
