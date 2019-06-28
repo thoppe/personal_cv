@@ -32,7 +32,3 @@
 + Safronova, A.S., Kantsyrev, V.L., Neill, P., Safronova, U.I., Fedin, D.A., Ouart, N.D., Yilmaz, M.F., Osborne, G., Shrestha, I., Williamson, K. and Hoppe, T., 2008. [The importance of EBIT data for Z-pinch plasma diagnostics.](http://www.nrcresearchpress.com/doi/abs/10.1139/p07-170), Canadian Journal of Physics, 86(1), pp. 267-276.
 
 + Alla Safronova, Travis Hoppe, et al. [Spectroscopic and Imaging Study of Combined W and Mo-pinches at 1 MA-pinch Generators](http://dx.doi.org/10.1109/TPS.2006.878361), IEEE Transactions on Plasma Science (2006), Vol. 34, No. 5, pp. 2256-2262
-
-### Dev Notes
-
-    sudo apt install texlive-latex-base texlive-latex-recommended texlive-latex-extra
