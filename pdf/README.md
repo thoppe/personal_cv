@@ -9,3 +9,7 @@ PDF copies of Curriculum vitae and resumes.
 + [Curriculum Contribution](travis_curriculum_contribution.pdf?raw=true)
 + [Publication List](travis_publication_list.pdf?raw=true)
 + [Academic Reference List](travis_academia_contacts.pdf?raw=true) 
+
+## Publications
+
++ Minton, Allen P., and Travis A. Hoppe. "Nonspecific interactions between macromolecular solutes in concentrated solution: physico-chemical manifestations and biochemical consequences." Frontiers in molecular biosciences 6 (2019): 10. [PMID 30918892](https://www.ncbi.nlm.nih.gov/pubmed/30918892)
