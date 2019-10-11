@@ -23,9 +23,6 @@ master:
 	make travis_research_statment_exec
 	make travis_research_statment
 
-travis_cover_letter_OPA:
-	pdflatex -output-directory pdf travis_cover_letter_OPA.tex
-
 travis_publication_list:
 	pdflatex -output-directory pdf travis_publication_list.tex
 	cp bibliography/*.bib pdf
