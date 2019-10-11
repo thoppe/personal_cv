@@ -23,11 +23,11 @@ master:
 	make travis_research_statment_exec
 	make travis_research_statment
 
-travis_publication_list:
-	pdflatex -output-directory pdf travis_publication_list.tex
-	cp bibliography/*.bib pdf
-	cd pdf; bibtex travis_publication_list
-	pdflatex -output-directory pdf travis_publication_list.tex
+#travis_publication_list:
+#	pdflatex -output-directory pdf travis_publication_list.tex
+#	cp bibliography/*.bib pdf
+#	cd pdf; bibtex travis_publication_list
+#	pdflatex -output-directory pdf travis_publication_list.tex
 
 travis_academia_cv:
 	pdflatex -output-directory pdf travis_academia_cv.tex
