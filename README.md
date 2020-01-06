@@ -7,7 +7,9 @@
 
 ### Publications
 
-+ Travis A. Hoppe, _et al._ "Topic Choice Contributes to Lower Rate of NIH NIH Awards to African-American/Black Scientists", Science Advances (2019), In Press
+
+
++ Travis A. Hoppe, _et al._ [Topic Choice Contributes to Lower Rate of NIH NIH Awards to African-American/Black Scientists](https://advances.sciencemag.org/content/5/10/eaaw7238), Science Advances (2019)
 
 + Hoppe, Travis, and Allen P. Minton. [Non-specific Interactions Between Macromolecular Solutes in Concentrated Solution: Physico-Chemical Manifestations and Biochemical Consequences](https://www.frontiersin.org/articles/10.3389/fmolb.2019.00010/full), Front. Mol. Biosci. 13 (2019)
 
