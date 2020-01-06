@@ -7,9 +7,9 @@
 
 ### Publications
 
-
-
 + Travis A. Hoppe, _et al._ [Topic Choice Contributes to Lower Rate of NIH NIH Awards to African-American/Black Scientists](https://advances.sciencemag.org/content/5/10/eaaw7238), Science Advances (2019)
+
++ Ian Hutchins, Travis A. Hoppe, _et al._ [The NIH Open Citation Collection: A public access, broad coverage resource](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385), PLoS Biology (2019)
 
 + Hoppe, Travis, and Allen P. Minton. [Non-specific Interactions Between Macromolecular Solutes in Concentrated Solution: Physico-Chemical Manifestations and Biochemical Consequences](https://www.frontiersin.org/articles/10.3389/fmolb.2019.00010/full), Front. Mol. Biosci. 13 (2019)
 
