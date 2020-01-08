@@ -1,5 +1,6 @@
 \documentclass[]{scrartcl}
 \usepackage{src/cleancv}
+\usepackage{enumitem}
 
 \newcommand{\CVtype}{Curriculum Vit\ae}
 \newcommand{\CVname}{Travis Aaron Hoppe}
@@ -19,18 +20,17 @@
 \begin{cleanCV}
 
   \SectionHead{Professional Experience}
-
-   \vspace{1.5em}
-
-
+  
   \WorkExperience
 {2016-current}
 {Data Scientist / Portfolio Analyst}
 {
-  Developed analytic tools, models, and software to process the natural language of text (using distributional embeddings such as word2vec) over the NIH grants corpus for senior leadership
-Analyzed grant and publication portfolios, evaluating metrics such as clinical impact, technological impact, and award rates to build quantitative comparisons between various populations
-Processed PDFs to extract data from historical records
-Built machine learning models for various tasks (classification, regression, outlier detection)
+  \begin{itemize}
+  \item Developed analytic tools, models, and software to process the natural language of text using distributional embeddings (e.g. word2vec) over the NIH grants and publication corpus.
+    \item Analyzed grant and publication portfolios, evaluating metrics such as clinical impact, technological impact, and award rates to build quantitative comparisons between various populations.
+    \item Restored historical texts from books, records, and PDFs into actionable data.
+    \item Built machine learning models for classification, regression, outlier detection, and language modeling.
+  \end{itemize}
 }
 
  
@@ -38,35 +38,49 @@ Built machine learning models for various tasks (classification, regression, out
 {2014-2016}
 {Postdoctoral Fellowship at National Institutes of Health}
 {
-Theoretical Biophysics with Robert Best at the
-National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), 
-part of the National Institutes of Health (NIH).
-
-Served as a postdoctoral fellow under the lab of Dr. Robert Best
-Researched novel integration schemes for molecular dynamics simulations
-Developed protein models for tertiary structure prediction from primary sequence
+  \begin{itemize}
+  %\item Served as a postdoctoral fellow under the lab of Dr. Robert Best.
+  \item Researched novel integration schemes for molecular dynamics simulations.
+  \item Developed protein models for tertiary structure prediction from primary sequence.
+  \item Worked in collaboration with experimentalists to test and validate models. 
+  \end{itemize}
 }
 
 \WorkExperience
 {2011-2014}
 {Postdoctoral Fellowship at National Institutes of Health}
 {
-  Physical Biochemistry with Allen Minton at the NIH, NIDDK.
-
-  Served as a postdoctoral fellow under the lab of Dr. Allen Minton
-Developed hard-sphere models to account for crowding in biomolecular simulations
-Developed approximate potentials to model anisotropic charge distributions
+  \begin{itemize}
+  %\item   Served as a postdoctoral fellow under the lab of Dr. Allen Minton.
+  \item Developed multi-scale theoretical and computational models to study protein folding, structure, and protein-protein.
+  \item Developed hard-sphere models to account for crowding in biomolecular simulations.
+  \item Developed approximate potentials to model anisotropic charge distributions.
+  \item Designed large-scale parallel projects (1000+ cores) to investigate results.
+  \end{itemize}
 }
 
+\WorkExperience
+{2005-2011}
+{Teaching Assistant (Drexel)}
+{
+  \begin{itemize}
+  \item   Organized, taught, and ran over 22 undergraduate courses.
+  \item   Developed lesson plans and curricula.
+  \item   Restructured the entire computational component for physics majors by transitioning fro FORTRAN to Python.
+  \end{itemize}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
 
 \SectionHead{Education}
-
 
 \WorkExperience
 {2011}
 {Doctor of Philosophy, Physics}
 {
-Drexel University with Jian-Min Yuan. 
+\\Drexel University with Jian-Min Yuan. 
 \href{https://idea.library.drexel.edu/islandora/object/idea:3488}{Thesis},
 \emph{On the Role of Entropy in the Protein Folding Process}.
 }
@@ -74,33 +88,14 @@ Drexel University with Jian-Min Yuan.
 \WorkExperience
 {2008}
 {Master of Science, Physics}
-{Drexel University}
+{\\Drexel University}
 
 \WorkExperience
 {2005}
 {Bachelor of Science, Physics\\
 Bachelor of Science, Mathematics}
-{University of Nevada}
+{\\University of Nevada}
 
-%\SectionHead{Experience}
-%
-%\WorkExperience
-%{2011-current}
-%{Research Associate (NIH, NIDDK)}
-%{%
-%  Developed multi-scale theoretical and computational models to study protein folding, structure, and protein-prote%in interaction.
-%Worked in collaboration with experimentalists to test and validate models. 
-%Designed large-scale parallel projects (1000+ cores) to investigate results. 
-%}
-%
-%\WorkExperience
-%{2005-2011}
-%{Teaching Assistant (Drexel)}
-%{%
-%  Organized, taught, and ran over 22 undergraduate courses.
-%  Developed lesson plans and curricula.
-%  Restructured the entire computational component for physics majors by transitioning from FORTRAN to Python.
-%}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -314,6 +309,8 @@ for Hard Sphere and Square Well Potentials}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newpage
+
 \SectionHead{Teaching (\MakeUppercase{D}rexel)}
 
 \newcommand{\TeachingNote}{$^*$}
@@ -325,11 +322,9 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2010}
 {PHYS 304}{Computational Physics I\TeachingNote}
-
 \Teaching
 {}
 {PHYS 160}{Introduction to Scientific Computing\TeachingNote}
-
 \Teaching
 {}
 {PHYS 305}{Computational Physics II\TeachingNote}
@@ -337,20 +332,15 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2009}
 {PHYS 304}{Computational Physics I\TeachingNote}
-
 \Teaching
 {}
 {PHYS 160}{Introduction to Scientific Computing\TeachingNote}
-
 \Teaching
 {}
 {DSP 099}{Dragon Summer Program: Remedial Mathematics}
-
 \Teaching
 {}
 {PHYS 100}{Preparation for Engineering Studies}
-
-
 \Teaching
 {}
 {PHYS 305}{Computational Physics II\TeachingNote}
@@ -358,15 +348,12 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2008}
 {PHYS 304}{Computational Physics I\TeachingNote}
-
 \Teaching
 {}
 {PHYS 102}{Fundamentals of Physics II\TeachingNote}
-
 \Teaching
 {}
 {PHYS 115}{Contemporary Physics III\TeachingNote}
-
 \Teaching
 {}
 {PHYS 114}{Contemporary Physics II\TeachingNote}
@@ -374,11 +361,9 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2007}
 {PHYS 113}{Contemporary Physics I\TeachingNote}
-
 \Teaching
 {}
 {PHYS 102}{Fundamentals of Physics II, Lab}
-
 \Teaching
 {}
 {PHYS 115}{Contemporary Physics III\TeachingNote}
@@ -389,15 +374,12 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2006}
 {PHYS 113}{Contemporary Physics I\TeachingNote}
-
 \Teaching
 {}
 {TDEC 101}{Fundamentals of Physics I, Lab}
-
 \Teaching
 {}
 {TDEC 103}{Fundamentals of Physics III\TeachingNote}
-
 \Teaching
 {}
 {TDEC 102}{Fundamentals of Physics II\TeachingNote}
