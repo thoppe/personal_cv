@@ -1,5 +1,6 @@
 \documentclass[]{scrartcl}
 \usepackage{src/cleancv}
+\usepackage{enumitem}
 
 \newcommand{\CVtype}{Curriculum Vit\ae}
 \newcommand{\CVname}{Travis Aaron Hoppe}
@@ -18,67 +19,92 @@
 \begin{document}
 \begin{cleanCV}
 
-\SectionHead{Education}
-
-\WorkExperience
-{2014-current}
-{Postdoctoral}
+  \SectionHead{Professional Experience}
+  
+  \WorkExperience
+{2016-current}
+{Senior Data Scientist / Portfolio Analyst}
 {
-Theoretical Biophysics with Robert Best at the
-National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), 
-part of the National Institutes of Health (NIH).
+  \begin{itemize}
+  \item Developed analytic tools to process the text of NIH grants and publications using distributional embeddings (e.g. word2vec).
+    \item Analyzed grant and publication portfolios, evaluating metrics such as clinical impact, technological impact, and award rates to build quantitative comparisons between various populations.
+    \item Architected and productionized machine learning models for classification, regression, outlier detection, and language modeling. Maintained several open-source tools used internationally.
+    \item Designed and validated an interagency government blockchain to detect grant duplication with minimal shared data.
+    \item Restored historical texts from books and PDFs into actionable data.
+  \end{itemize}
+}
+
+ 
+\WorkExperience
+{2014-2016}
+{Postdoctoral Fellowship at National Institutes of Health}
+{
+  \begin{itemize}
+  \item Researched novel integration schemes for molecular dynamics simulations. Developed protein models for tertiary structure prediction from primary sequence.
+  \item Worked in collaboration with experimentalists to test and validate models. 
+  \end{itemize}
 }
 
 \WorkExperience
 {2011-2014}
-{Postdoctoral}
+{Postdoctoral Fellowship at National Institutes of Health}
 {
-Physical Biochemistry with Allen Minton at the NIH, NIDDK.
+  \begin{itemize}
+  \item Developed multi-scale theoretical and computational models to study protein folding, structure, and protein-protein. Derived hard-sphere models to account for crowding in biomolecular simulations and potentials to model anisotropic charge distributions.
+  \item Managed large-scale parallel projects (1000+ cores) to simulate the cellular environment.
+  \end{itemize}
 }
 
+\WorkExperience
+{2005-2011}
+{Teaching Assistant (Drexel)}
+{
+  \begin{itemize}
+  \item   Organized, taught, and ran 22 undergraduate courses.
+  \item   Restructured the entire computational component for physics majors by transitioning from FORTRAN to Python.
+  \end{itemize}
+}
+
+\SectionHead{Skills}
+\vspace{-2em}
+\begin{itemize}
+\item  \textbf{Machine learning and Natural Language Processing}: Tensorflow, pyTorch, Keras, Convolutional Neural Networks (CNN), Generative Adversarial Networks (GANs), Transformers (BERT), word2vec.
+\item  \textbf{Programming and Database}: Python, C\texttt{++}, JavaScript, SQL, NoSQL (MongoDB, Elasticsearch).
+  \item  \textbf{Project management}: Small team leader for analysis and code design.
+  
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\SectionHead{Education}
 
 \WorkExperience
 {2011}
 {Doctor of Philosophy, Physics}
 {
-Drexel University with Jian-Min Yuan. 
-\href{https://idea.library.drexel.edu/islandora/object/idea:3488}{Thesis},
-\emph{On the Role of Entropy in the Protein Folding Process}.
+\\Drexel University
+\\\emph{On the Role of Entropy in the Protein Folding Process}, \href{https://idea.library.drexel.edu/islandora/object/idea:3488}{Thesis}.
 }
 
 \WorkExperience
 {2008}
 {Master of Science, Physics}
-{Drexel University}
+{\\Drexel University}
 
 \WorkExperience
 {2005}
 {Bachelor of Science, Physics\\
 Bachelor of Science, Mathematics}
-{University of Nevada}
+{\\University of Nevada}
 
-%\SectionHead{Experience}
-%
-%\WorkExperience
-%{2011-current}
-%{Research Associate (NIH, NIDDK)}
-%{%
-%  Developed multi-scale theoretical and computational models to study protein folding, structure, and protein-prote%in interaction.
-%Worked in collaboration with experimentalists to test and validate models. 
-%Designed large-scale parallel projects (1000+ cores) to investigate results. 
-%}
-%
-%\WorkExperience
-%{2005-2011}
-%{Teaching Assistant (Drexel)}
-%{%
-%  Organized, taught, and ran over 22 undergraduate courses.
-%  Developed lesson plans and curricula.
-%  Restructured the entire computational component for physics majors by transitioning from FORTRAN to Python.
-%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \SectionHead{Publications}
-
+\vspace{-1em}
 \subsection{Policy}
 
 \Paper
@@ -150,13 +176,6 @@ for Hard Sphere and Square Well Potentials}
 {http://dx.doi.org/10.1371/journal.pone.0075792}
 {PLoS ONE}
 
-%\Paper
-%{2011}
-%{On the Role of Entropy in the Protein Folding Process}
-%{Travis Hoppe}
-%{http://idea.library.drexel.edu/handle/1860/3488}
-%{Doctoral Thesis}
-
 \Paper
 {2010}
 {Protein Folding with Implicit Crowders: 
@@ -215,69 +234,7 @@ for Hard Sphere and Square Well Potentials}
 {http://dx.doi.org/10.1109/TPS.2006.878361}
 {IEEE Transactions on Plasma Science}
 
-
-%\SectionHead{Research in Progress}
-%\PaperX
-%{Enhancing the coevolutionary signal}
-%{Travis Hoppe, Robert Best}
-%\PaperX
-%{Stabilizing membrane proteins from thermophilic evolution}
-%{Travis Hoppe, Robert Best}
-%\PaperX
-%{Effect of Charge Anisotropy and the Theoretical Prediction of Phase Separation of Ionic Solutions}
-%{Travis Hoppe, Allen Minton}
-%\PaperX
-%{Dual-graph representation of RNA structure}
-%{Travis Hoppe, Tamar Schlick}
-
-%\PaperX
-%{Operator Expansion of the Grand Partition Function of Potts Models}
-%{Travis Hoppe, Jian-Min Yuan}
-
-%\PaperX
-%{Evolutionary protein charge anisotropy}
-%{Travis Hoppe, Jenny Hinshaw}
-
-\SectionHead{Conferences}
-
-\WorkExperienceX
-{2016}
-{Biophysical Society: Los Angeles}
-{Poster: Coevolutionary signal enhancement}
-
-\WorkExperienceX
-{2015}
-{Biophysical Society: Baltimore}
-{Seminar: Mean-field lattice-model IDPs, Binding Affinity \& Specificity}
-
-\WorkExperienceX
-{2014}
-{Advances in Enhanced Sampling Algorithms: Telluride}
-{Seminar: Topological considerations in the Wang-Landau algorithm}
-
-\WorkExperienceX
-{2013}
-{Biophysical Society: Philadelphia}
-{Seminar: Coarse-grained Electrostatic Models for Protein Solutions}
-
-\WorkExperienceX
-{2010}
-{Biophysical Society: San Francisco}
-{Poster: Wang-Landau Density of States in Crowded Protein Environments}
-
-\WorkExperienceX
-{2009}
-{Drexel University Libraries' Communication Symposium:\\The Hidden Costs of Scholarly Communication}
-{Invited Panel Member}
-
-\WorkExperienceX
-{2009}
-{Biophysical Society: Boston}
-{Poster: Exhaustive Properties of Simple Lattice Peptides}
-
-\pagebreak
-
-\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \SectionHead{Awards}
 
@@ -313,10 +270,53 @@ for Hard Sphere and Square Well Potentials}
 
 \WorkExperienceX
 {2007}
-{Teaching Assistant of the Year} {}
-%{Recognition by Drexel University as the top Teaching Assistant in the College of Arts and Sciences.}
+{Teaching Assistant of the Year}
+{Recognition by Drexel University as the top Teaching Assistant in the College of Arts and Sciences.}
 
-\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\SectionHead{Conferences}
+
+\WorkExperienceX
+{2016}
+{Biophysical Society: Los Angeles}
+{Poster: Coevolutionary signal enhancement}
+
+
+\WorkExperienceX
+{2015}
+{Biophysical Society: Baltimore}
+{Seminar: Mean-field lattice-model IDPs, Binding Affinity \& Specificity}
+
+\WorkExperienceX
+{2014}
+{Advances in Enhanced Sampling Algorithms: Telluride}
+{Seminar: Topological considerations in the Wang-Landau algorithm}
+
+\WorkExperienceX
+{2013}
+{Biophysical Society: Philadelphia}
+{Seminar: Coarse-grained Electrostatic Models for Protein Solutions}
+
+\WorkExperienceX
+{2010}
+{Biophysical Society: San Francisco}
+{Poster: Wang-Landau Density of States in Crowded Protein Environments}
+
+\WorkExperienceX
+{2009}
+{Drexel University Libraries' Communication Symposium:\\The Hidden Costs of Scholarly Communication}
+{Invited Panel Member}
+
+\WorkExperienceX
+{2009}
+{Biophysical Society: Boston}
+{Poster: Exhaustive Properties of Simple Lattice Peptides}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
 
 \SectionHead{Teaching (\MakeUppercase{D}rexel)}
 
@@ -329,11 +329,9 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2010}
 {PHYS 304}{Computational Physics I\TeachingNote}
-
 \Teaching
 {}
 {PHYS 160}{Introduction to Scientific Computing\TeachingNote}
-
 \Teaching
 {}
 {PHYS 305}{Computational Physics II\TeachingNote}
@@ -341,20 +339,15 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2009}
 {PHYS 304}{Computational Physics I\TeachingNote}
-
 \Teaching
 {}
 {PHYS 160}{Introduction to Scientific Computing\TeachingNote}
-
 \Teaching
 {}
 {DSP 099}{Dragon Summer Program: Remedial Mathematics}
-
 \Teaching
 {}
 {PHYS 100}{Preparation for Engineering Studies}
-
-
 \Teaching
 {}
 {PHYS 305}{Computational Physics II\TeachingNote}
@@ -362,15 +355,12 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2008}
 {PHYS 304}{Computational Physics I\TeachingNote}
-
 \Teaching
 {}
 {PHYS 102}{Fundamentals of Physics II\TeachingNote}
-
 \Teaching
 {}
 {PHYS 115}{Contemporary Physics III\TeachingNote}
-
 \Teaching
 {}
 {PHYS 114}{Contemporary Physics II\TeachingNote}
@@ -378,11 +368,9 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2007}
 {PHYS 113}{Contemporary Physics I\TeachingNote}
-
 \Teaching
 {}
 {PHYS 102}{Fundamentals of Physics II, Lab}
-
 \Teaching
 {}
 {PHYS 115}{Contemporary Physics III\TeachingNote}
@@ -393,15 +381,12 @@ for Hard Sphere and Square Well Potentials}
 \Teaching
 {2006}
 {PHYS 113}{Contemporary Physics I\TeachingNote}
-
 \Teaching
 {}
 {TDEC 101}{Fundamentals of Physics I, Lab}
-
 \Teaching
 {}
 {TDEC 103}{Fundamentals of Physics III\TeachingNote}
-
 \Teaching
 {}
 {TDEC 102}{Fundamentals of Physics II\TeachingNote}
@@ -411,21 +396,6 @@ for Hard Sphere and Square Well Potentials}
 {TDEC 101}{Fundamentals of Physics I\TeachingNote}
 
 \TeachingNote{\small Developed new curricula and modernized the Computational Physics, Contemporary Physics and Introduction to Scientific Computing courses at Drexel.}
-
-
-%\SectionHead{Open-source Projects}
-%\WorkExperienceX
-%{2009}
-%{Literate Python}
-%{}
-%\JobDesc
-%{lit-py: }
-%{An open source 
-%\href{https://bitbucket.org/hooked/lit-python/overview}
-%{pedagogical tool}
-%to document code.
-%Equations and code output are seamlessly integrated into a \LaTeX\ document and complied into a PDF for easy distribution. 
-%Used by members of the Drexel physics department to both teach and share code among students and peers.}
 
 \end{cleanCV}
 \end{document}
