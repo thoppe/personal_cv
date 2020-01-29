@@ -1,5 +1,5 @@
 #current = cara_resume
-current = travis_academia_cv
+current = Travis_Hoppe_CV
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
 #current = travis_publication_list
@@ -15,7 +15,7 @@ all:
 	evince pdf/$(current).pdf & 2>/dev/null 
 
 master:
-	make travis_academia_cv
+	make Travis_Hoppe_CV
 	make travis_teaching_philosophy
 	make travis_curriculum_contribution
 	make travis_publication_list
@@ -29,8 +29,8 @@ master:
 #	cd pdf; bibtex travis_publication_list
 #	pdflatex -output-directory pdf travis_publication_list.tex
 
-travis_academia_cv:
-	pdflatex -output-directory pdf travis_academia_cv.tex
+Travis_Hoppe_CV:
+	pdflatex -output-directory pdf Travis_Hoppe_CV.tex
 
 travis_professional_resume:
 	pdflatex -output-directory pdf travis_professional_resume.tex
