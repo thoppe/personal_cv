@@ -1,5 +1,5 @@
 #current = cara_resume
-current = Travis_Hoppe_CV
+current = Travis_Hoppe_Federal_Resume
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
 #current = travis_publication_list
@@ -28,6 +28,10 @@ master:
 #	cp bibliography/*.bib pdf
 #	cd pdf; bibtex travis_publication_list
 #	pdflatex -output-directory pdf travis_publication_list.tex
+
+
+Travis_Hoppe_Federal_Resume:
+	pdflatex -output-directory pdf Travis_Hoppe_Federal_Resume.tex
 
 Travis_Hoppe_CV:
 	pdflatex -output-directory pdf Travis_Hoppe_CV.tex

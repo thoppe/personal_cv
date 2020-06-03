@@ -1,0 +1,428 @@
+\documentclass[]{scrartcl}
+\usepackage{src/cleancv}
+\usepackage{enumitem}
+
+\newcommand{\CVtype}{Federal Resume}
+\newcommand{\CVname}{Travis Aaron Hoppe}
+\newcommand{\CVemail}{travis.hoppe@gmail.com}
+\newcommand{\CVdegrees}{PhD Physics}
+\newcommand{\CVphone}{$(775) \ 287\hbox{-}4033$}
+
+\titleformat{\section}[block]{\noindent\bfseries}{}{0em}{} 
+\titleformat{\subsection}[block]{\noindent\itshape}{}{0em}{} 
+
+\titlespacing*{\section}
+{0pt}{2ex}{1ex}
+\titlespacing*{\subsection}
+{0pt}{1ex}{1ex}
+
+\begin{document}
+\begin{cleanCV}
+
+  \SectionHead{\MakeUppercase{Professional Experience}}
+  
+  \WorkExperience
+{}
+{Senior Data Scientist / Portfolio Analyst}
+{
+  \newline February 2016 - February 2020
+  \newline 40 hours per week
+  \newline \$134,000/year base compensation, yearly bonus \$1,000 to \$4,000
+}
+{
+  \begin{itemize}
+  \item Developed analytic tools to process the text of NIH grants and publications using distributional embeddings (e.g. word2vec).
+    \item Analyzed grant and publication portfolios, evaluating metrics such as clinical impact, technological impact, and award rates to build quantitative comparisons between various populations.
+    \item Architected and productionized machine learning models for classification, regression, outlier detection, and language modeling. Maintained several open-source tools used internationally.
+    \item Designed and validated an interagency government blockchain to detect grant duplication with minimal shared data.
+    \item Restored historical texts from books and PDFs into actionable data.
+  \end{itemize}
+}
+
+ 
+\WorkExperience
+{}
+{Postdoctoral Fellowship (IRTA) at National Institutes of Health}
+{\newline Research Scientist}
+{
+  \newline April 2014 - February 2016
+  \newline 40 hours per week
+  \newline \$48,000/year
+}
+{
+  \begin{itemize}
+  \item Researched novel integration schemes for molecular dynamics simulations. Developed protein models for tertiary structure prediction from primary sequence.
+  \item Worked in collaboration with experimentalists to test and validate models. 
+  \end{itemize}
+}
+
+\WorkExperience
+{}
+{Postdoctoral Fellowship at National Institutes of Health}
+{\newline Research Scientist}
+{
+  \newline August 2011 - April 2014
+  \newline 40 hours per week
+  \newline \$46,167/year
+}
+{
+  \begin{itemize}
+  \item Developed multi-scale theoretical and computational models to study protein folding, structure, and protein-protein. Derived hard-sphere models to account for crowding in biomolecular simulations and potentials to model anisotropic charge distributions.
+  \item Managed large-scale parallel projects (1000+ cores) to simulate the cellular environment.
+  \end{itemize}
+}
+
+\WorkExperience{}
+{\newline Teaching Assistantship / Curriculum Designer}
+{
+  \newline September 2005 - May 2011
+  \newline 35 hours per week
+  \newline \$28,000/year
+}   
+{Teaching Assistant (Drexel)}
+
+{
+  \begin{itemize}
+  \item   Organized, taught, and ran 22 undergraduate courses.
+  \item   Restructured the entire computational component for physics majors by transitioning from FORTRAN to Python.
+  \end{itemize}
+}
+
+\SectionHead{\MakeUppercase{Skills}}
+\vspace{-2em}
+\begin{itemize}
+\item  \textbf{Machine learning and Natural Language Processing}: Tensorflow, pyTorch, Keras, Convolutional Neural Networks (CNN), Generative Adversarial Networks (GANs), Transformers (BERT), word2vec.
+\item  \textbf{Programming and Database}: Python, C\texttt{++}, JavaScript, SQL, NoSQL (MongoDB, Elasticsearch).
+  \item  \textbf{Project management}: Small team leader for analysis and code design.
+  
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\SectionHead{\MakeUppercase{Education}}
+
+\WorkExperience
+{2011}
+{Doctor of Philosophy, Physics}
+{
+\\Drexel University
+\\\emph{On the Role of Entropy in the Protein Folding Process}, \href{https://idea.library.drexel.edu/islandora/object/idea:3488}{Thesis}.
+}
+
+\WorkExperience
+{2008}
+{Master of Science, Physics}
+{\\Drexel University}
+
+\WorkExperience
+{2005}
+{Bachelor of Science, Physics}
+{\\University of Nevada}
+
+\WorkExperience
+{2005}
+{Bachelor of Science, Mathematics}
+{\\University of Nevada}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\SectionHead{\MakeUppercase{Publications}}
+\vspace{-1em}
+\subsection{Policy}
+
+\Paper
+{2019}
+{Topic Choice Contributes to Lower Rate of NIH Awards to African-American/Black Scientists}
+{Travis Hoppe, Aviva Litovitz, Kristine Willis, Rebecca Meseroll, Matthew Perkins, B. Ian Hutchins, Alison Davis, Michael Lauer, Hannah Valantine, James Anderson, \& George Santangelo}
+{https://advances.sciencemag.org/content/5/10/eaaw7238}
+{Science Advances}
+
+\Paper
+{2019}
+{The NIH Open Citation Collection: A public access, broad coverage resource}
+{Ian Hutchins, Kirk Baker, Matthew Davis, Mario Diwersy, Ehsanul Haque, Robert Harriman, Travis Hoppe, Stephen Leicht, Payam Meyer, George Santangelo}
+{https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385}
+{PLoS Biology}
+
+
+\Paper
+{2017}
+{Additional support for RCR: A validated article-level measure of scientific influence}
+{Ian Hutchins, Travis Hoppe, Rebecca Meseroll, James Anderson, \& George Santangelo}
+{http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2003552}
+{PLoS Biology}
+
+
+\subsection{Protein-Protein Interaction}
+
+\Paper
+{2019}
+{Non-specific Interactions Between Macromolecular Solutes in Concentrated Solution: Physico-Chemical Manifestations and Biochemical Consequences}
+{Travis Hoppe \& Allen Minton}
+{https://www.frontiersin.org/articles/10.3389/fmolb.2019.00010/full}
+{Frontiers in Molecular Biosciences}
+
+
+\Paper
+{2016}
+{Incorporation of Hard and Soft Protein-Protein Interactions into Models for Crowding Effects in Binary and Ternary Protein Mixtures}
+{Travis Hoppe \& Allen Minton}
+{http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.6b07736}
+{Journal of the Physical Chemistry B}
+
+\Paper
+{2015}
+{Dependence of Internal Friction on Folding Mechanism}
+{Wenwei Zheng, David De Sancho, Travis Hoppe \& Robert B. Best}
+{http://pubs.acs.org/doi/abs/10.1021/ja511609u}
+{Journal of the American Chemical Society}
+
+\Paper
+{2015}
+{An equilibrium model for the combined effect of macromolecular crowding and surface adsorption on the formation of linear protein fibrils}
+{Travis Hoppe, Allen Minton}
+{http://www.sciencedirect.com/science/article/pii/S0006349514048115}
+{Biophysical Journal}
+
+\Paper
+{2013}
+{A simplified representation of anisotropic charge distributions in proteins}
+{Travis Hoppe}
+{http://link.aip.org/link/doi/10.1063/1.4803099}
+{Journal of Chemical Physics}
+
+\Paper
+{2013}
+{Singular Value Decomposition of the Radial Distribution Function 
+for Hard Sphere and Square Well Potentials}
+{Travis Hoppe}
+{http://dx.doi.org/10.1371/journal.pone.0075792}
+{PLoS ONE}
+
+\Paper
+{2010}
+{Protein Folding with Implicit Crowders: 
+  A Study of Conformational States Using the Wang-Landau Method}
+{Travis Hoppe, Jian-Min Yuan}
+{http://pubs.acs.org/doi/abs/10.1021/jp107809r}
+{Journal of Physical Chemistry B}
+
+%\pagebreak
+
+\subsection{Protein Topology \& Graph theory}
+
+\Paper
+{2014}
+{Integer sequence discovery from small graphs}
+{Travis Hoppe, Anna Petrone}
+{http://www.sciencedirect.com/science/article/pii/S0166218X15003704}
+{Discrete Applied Mathematics}
+
+\Paper
+{2009}
+{Entropic flows, crowding effects, and stability of asymmetric proteins}
+{Travis Hoppe, Jian-Min Yuan}
+{http://link.aps.org/doi/10.1103/PhysRevE.80.011404}
+{Physical Review E}
+
+
+\subsection{Experimental Modeling}
+
+\Paper
+{2014}
+{Programmable Nanoscaffolds that Control Ligand Display to a G-Protein Coupled-Receptor in Membranes allow Dissection of Multivalent Effects}
+{Andrew Dix, Daniel Appella, Travis Hoppe, \etal}
+{https://pubs.acs.org/doi/abs/10.1021/ja504288s}
+{Journal of the American Chemical Society}
+
+\Paper
+{2014}
+{Quantification of plasma HIV RNA using chemically engineered peptide nucleic acids}
+{Chao Zhao, Daniel Appella, Travis Hoppe, \etal}
+{http://www.nature.com/ncomms/2014/141006/ncomms6079/abs/ncomms6079.html}
+{Nature Communications}
+
+\Paper
+{2008}
+{The importance of EBIT data for Z-pinch plasma diagnostics}
+{A S Safronova, Travis Hoppe, \etal}
+{http://dx.doi.org/10.1139/P07-170}
+{Canadian Journal of Physics}
+
+\Paper
+{2006}
+{Spectroscopic and Imaging Study of Combined W and Mo-pinches 
+  at 1 MA-pinch Generators}
+{Alla Safronova, Travis Hoppe, \etal}
+{http://dx.doi.org/10.1109/TPS.2006.878361}
+{IEEE Transactions on Plasma Science}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\SectionHead{\MakeUppercase{Awards}}
+
+\WorkExperienceX
+{2017}
+{Office of the Director's Honor Award}
+{Outstanding support for the Grants Support Index \& Next Generation Research Initiative Analytical Team}
+
+\WorkExperienceX
+{2014}
+{Top Presentation Award}
+{Institution-wide recognition during the NIDDK Annual Conference.}
+
+\WorkExperienceX
+{2010}
+{Research Assistant Grant}
+{Competitive grant from Drexel Physics Department on the basis of outstanding research and teaching.}
+
+\WorkExperienceX
+{2010}
+{Student Research Achievement Award (SRAA)}
+{Top poster at the Biophysical Society 2010 meeting. }
+
+\WorkExperienceX
+{2009}
+{Department Research Award (Senior Division)}
+{Given by the Drexel Physics Department, this award recognized a high proficiency in both original research and synthesis of results into publications.}
+
+\WorkExperienceX
+{2008}
+{Department Research Award (Junior Division)}
+{Restricted to the first two years of study, the junior division award was awarded for early achievements in research.}
+
+\WorkExperienceX
+{2007}
+{Teaching Assistant of the Year}
+{Recognition by Drexel University as the top Teaching Assistant in the College of Arts and Sciences.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\SectionHead{\MakeUppercase{Conferences}}
+
+\WorkExperienceX
+{2016}
+{Biophysical Society: Los Angeles}
+{Poster: Coevolutionary signal enhancement}
+
+
+\WorkExperienceX
+{2015}
+{Biophysical Society: Baltimore}
+{Seminar: Mean-field lattice-model IDPs, Binding Affinity \& Specificity}
+
+\WorkExperienceX
+{2014}
+{Advances in Enhanced Sampling Algorithms: Telluride}
+{Seminar: Topological considerations in the Wang-Landau algorithm}
+
+\WorkExperienceX
+{2013}
+{Biophysical Society: Philadelphia}
+{Seminar: Coarse-grained Electrostatic Models for Protein Solutions}
+
+\WorkExperienceX
+{2010}
+{Biophysical Society: San Francisco}
+{Poster: Wang-Landau Density of States in Crowded Protein Environments}
+
+\WorkExperienceX
+{2009}
+{Drexel University Libraries' Communication Symposium:\\The Hidden Costs of Scholarly Communication}
+{Invited Panel Member}
+
+\WorkExperienceX
+{2009}
+{Biophysical Society: Boston}
+{Poster: Exhaustive Properties of Simple Lattice Peptides}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
+
+\SectionHead{\MakeUppercase{Teaching (\MakeUppercase{D}rexel)}}
+
+\newcommand{\TeachingNote}{$^*$}
+
+\Teaching
+{2011}
+{PHYS 305}{Computational Physics II\TeachingNote}
+
+\Teaching
+{2010}
+{PHYS 304}{Computational Physics I\TeachingNote}
+\Teaching
+{}
+{PHYS 160}{Introduction to Scientific Computing\TeachingNote}
+\Teaching
+{}
+{PHYS 305}{Computational Physics II\TeachingNote}
+
+\Teaching
+{2009}
+{PHYS 304}{Computational Physics I\TeachingNote}
+\Teaching
+{}
+{PHYS 160}{Introduction to Scientific Computing\TeachingNote}
+\Teaching
+{}
+{DSP 099}{Dragon Summer Program: Remedial Mathematics}
+\Teaching
+{}
+{PHYS 100}{Preparation for Engineering Studies}
+\Teaching
+{}
+{PHYS 305}{Computational Physics II\TeachingNote}
+
+\Teaching
+{2008}
+{PHYS 304}{Computational Physics I\TeachingNote}
+\Teaching
+{}
+{PHYS 102}{Fundamentals of Physics II\TeachingNote}
+\Teaching
+{}
+{PHYS 115}{Contemporary Physics III\TeachingNote}
+\Teaching
+{}
+{PHYS 114}{Contemporary Physics II\TeachingNote}
+
+\Teaching
+{2007}
+{PHYS 113}{Contemporary Physics I\TeachingNote}
+\Teaching
+{}
+{PHYS 102}{Fundamentals of Physics II, Lab}
+\Teaching
+{}
+{PHYS 115}{Contemporary Physics III\TeachingNote}
+\Teaching
+{}
+{PHYS 114}{Contemporary Physics II\TeachingNote}
+
+\Teaching
+{2006}
+{PHYS 113}{Contemporary Physics I\TeachingNote}
+\Teaching
+{}
+{TDEC 101}{Fundamentals of Physics I, Lab}
+\Teaching
+{}
+{TDEC 103}{Fundamentals of Physics III\TeachingNote}
+\Teaching
+{}
+{TDEC 102}{Fundamentals of Physics II\TeachingNote}
+
+\Teaching
+{2005}
+{TDEC 101}{Fundamentals of Physics I\TeachingNote}
+
+\TeachingNote{\small Developed new curricula and modernized the Computational Physics, Contemporary Physics and Introduction to Scientific Computing courses at Drexel.}
+
+\end{cleanCV}
+\end{document}
