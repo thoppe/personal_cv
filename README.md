@@ -1,5 +1,6 @@
 ## [Travis Hoppe](http://thoppe.github.io/)
 
++ [Federal Resume](tex/pdf/Travis_Hoppe_Federal_Resume.pdf?raw=true)
 + [Academic CV](tex/pdf/Travis_Hoppe_CV.pdf?raw=true)
 + [Professional Resume](tex/pdf/travis_professional_resume.pdf?raw=true)
 + [Research Statement](tex/pdf/travis_research_statment.pdf?raw=true), [(_executive summary_)](tex/pdf/travis_research_statment_exec.pdf?raw=true)
@@ -7,7 +8,7 @@
 
 ### Publications
 
-+ Travis A. Hoppe, _et al._ [Topic Choice Contributes to Lower Rate of NIH NIH Awards to African-American/Black Scientists](https://advances.sciencemag.org/content/5/10/eaaw7238), Science Advances (2019)
++ Travis A. Hoppe, _et al._ [Topic Choice Contributes to Lower Rate of NIH Awards to African-American/Black Scientists](https://advances.sciencemag.org/content/5/10/eaaw7238), Science Advances (2019)
 
 + Ian Hutchins, Travis A. Hoppe, _et al._ [The NIH Open Citation Collection: A public access, broad coverage resource](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385), PLoS Biology (2019)
 
