@@ -11,7 +11,7 @@
 
 ### Publications
 
-+ Gao, Leo, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang et al. [The Pile: An 800GB Dataset of Diverse Text for Language Modeling.](https://arxiv.org/abs/2101.00027) arXiv preprint arXiv:2101.00027 (2020).
++ Gao, Leo, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang et al. [The Pile: An 800GB Dataset of Diverse Text for Language Modeling.](https://arxiv.org/abs/2101.00027) Preprint, arXiv:2101.00027 (2020).
 
 + Travis A. Hoppe, _et al._ [Topic Choice Contributes to Lower Rate of NIH Awards to African-American/Black Scientists](https://advances.sciencemag.org/content/5/10/eaaw7238), Science Advances (2019)
 
