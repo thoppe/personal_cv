@@ -1,12 +1,19 @@
 ## [Travis Hoppe](http://thoppe.github.io/)
 
 + [Federal Resume](tex/pdf/Travis_Hoppe_Federal_Resume.pdf?raw=true)
+
+<!--
 + [Academic CV](tex/pdf/Travis_Hoppe_CV.pdf?raw=true)
 + [Professional Resume](tex/pdf/travis_professional_resume.pdf?raw=true)
 + [Research Statement](tex/pdf/travis_research_statment.pdf?raw=true), [(_executive summary_)](tex/pdf/travis_research_statment_exec.pdf?raw=true)
 + [Curriculum Contribution](tex/pdf/travis_curriculum_contribution.pdf?raw=true)
+-->
 
 ### Publications
+
++ Gao, Leo, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang et al. [The Pile: An 800GB Dataset of Diverse Text for Language Modeling.](https://arxiv.org/abs/2101.00027) arXiv preprint arXiv:2101.00027 (2020).
+
++ Travis A. Hoppe, _et al._ [Topic Choice Contributes to Lower Rate of NIH Awards to African-American/Black Scientists](https://advances.sciencemag.org/content/5/10/eaaw7238), Science Advances (2019)
 
 + Travis A. Hoppe, _et al._ [Topic Choice Contributes to Lower Rate of NIH Awards to African-American/Black Scientists](https://advances.sciencemag.org/content/5/10/eaaw7238), Science Advances (2019)
 
