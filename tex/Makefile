@@ -1,5 +1,5 @@
-#current = cara_resume
-current = Travis_Hoppe_Federal_Resume
+current = cara_resume
+#current = Travis_Hoppe_Federal_Resume
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
 #current = travis_publication_list
@@ -55,6 +55,7 @@ travis_curriculum_contribution:
 	pdflatex -output-directory pdf travis_curriculum_contribution.tex
 
 cara_resume:
+	pdflatex -output-directory pdf cara_resume.tex
 	pdflatex -output-directory pdf cara_resume.tex
 
 edit:
