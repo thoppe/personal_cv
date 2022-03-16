@@ -1,5 +1,5 @@
-current = cara_resume
-#current = Travis_Hoppe_Federal_Resume
+#current = cara_resume
+current = Travis_Hoppe_Federal_Resume
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
 #current = travis_publication_list
@@ -11,6 +11,7 @@ current = cara_resume
 
 all:
 	@make check
+	make $(current)
 	make $(current)
 	evince pdf/$(current).pdf & 2>/dev/null 
 
