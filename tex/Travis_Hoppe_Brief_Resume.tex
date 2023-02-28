@@ -1,0 +1,242 @@
+\documentclass[]{scrartcl}
+\usepackage{src/cleancv}
+\usepackage{enumitem}
+
+\newcommand{\CVtype}{Condensed Resume (\href{https://github.com/thoppe/personal_cv/blob/master/tex/pdf/Travis_Hoppe_Federal_Resume.pdf?raw=true}{Federal CV} available)}
+\newcommand{\CVname}{Travis Aaron Hoppe}
+\newcommand{\CVemail}{travis.hoppe@gmail.com}
+\newcommand{\CVdegrees}{PhD Physics}
+\newcommand{\CVphone}{$(775) \ 287\hbox{-}4033$}
+
+\titleformat{\section}[block]{\noindent\bfseries}{}{0em}{} 
+\titleformat{\subsection}[block]{\noindent\itshape}{}{0em}{} 
+
+\titlespacing*{\section}
+{0pt}{2ex}{1ex}
+\titlespacing*{\subsection}
+{0pt}{1ex}{1ex}
+
+\begin{document}
+\begin{cleanCV}
+
+  \SectionHead{\MakeUppercase{Professional Experience}}
+
+  \vspace{-1em}
+
+\WorkExperience
+{}
+{Associate Director of Data Science and Analytics}
+{
+  \newline CDC / National Center for Health Statistics (NCHS)
+  \newline February 2022 - Present
+}
+{
+  \vspace{-1.50em}
+  \begin{itemize}
+
+  \item Developed and led three organizations within the agency: NCHS Innovation, NCHS Data Science Community of Practice, and the EDAV Best Practices group to build community, foster communication, and develop innovative practices across CDC.
+  \item Developed the first set of model standards for AI/ML within the agency for trustworthy, responsible, and ethical usage. Aligned with existing standards including the NIST AI RMF and HHS Trustworthy AI.
+  \item Harmonized metadata usage for all NCHS datasets published on \href{https://data.cdc.gov/browse?category=NCHS}{data.cdc.gov}. Developed and implemented standards for tagging datasets around Social Determinants of Health (SDoH).
+  \item Aligned NCHS with the agency data modernization goal of cloud integration. Coordinated policy, governance, and legal issues around the usage of CIPSEA protected data. Lead Tiger Team to identify gaps in existing cloud infrastructure for AI/ML needs.
+    \item Piloted many innovative data science projects around the Center including homomorphic encryption, text-to-speech transcription, natural language processing, and bibliometrics.
+
+  \end{itemize}
+}
+
+    
+  \WorkExperience
+{}
+{Chief Data Scientist}
+{
+  \newline CDC / National Center for Health Statistics (NCHS)
+  \newline September 2021 - February 2022
+}
+{
+  \vspace{-1.5em}
+  \begin{itemize}
+
+   \item Lead for NCHS Data Modernization Initiative: \emph{Increase Use, Discoverability, and Access to NCHS Data}. Established pilot projects and worked with stakeholders to create statements of work and business needs.
+   \item Served on CDC's response to the Executive Order on AI and the NCHS Data Science Strategic Plan. Presented to Board of Scientific Council, NCHS All-Hands, and delivered subject matter talks on Bias in AI, advances in Natural Language Processing, bibliometrics, and more.
+   \item Organized Center-wide metadata standards and built a custom ontology using evidence based sources: publications, web searches, and market research.
+   \item Developed new methodology to study free text responses from the Research and Development Survey (RANDS), including non-response detection and zero-shot learning objectives.
+   \item Implemented PII detection processes for restricted microlevel data.
+  \end{itemize}
+}
+  
+  \WorkExperience
+{}
+{Senior Data Scientist / Portfolio Analyst}
+{
+  \newline NIH / DPCPSI / OPA contracted under Lexical Intelligence
+  \newline February 2016 - February 2020
+}
+{
+  \vspace{-1.5em}
+  \begin{itemize}
+    
+    \item Scientific team leader for a novel inter-agency government blockchain to detect grant duplication with minimal shared data. Coordinated research, oversaw design, and developed protocols within the NIH and NSF teams.
+
+    \item Developed new analytic tools to process the text of NIH grants and publications using distributional embeddings (word2vec) and transformers (BERT). Tools were deployed for analysis presented to NIH senior leadership, Congress, and publications in high-ranking journals.
+
+    \item Architected and productionized machine learning models for classification, regression, outlier detection, and language modeling. Creator and maintainer of several open-source tools used internationally in the scientific community.
+
+  \item Analyzed grant and publication portfolios, evaluating metrics such as clinical impact, technological impact, and award rates to build quantitative comparisons between various populations.
+    
+  \end{itemize}
+}
+
+\vspace{0.5em}
+ 
+\WorkExperience
+{}
+{Postdoctoral Fellowship (IRTA) at National Institutes of Health}
+{\newline Research Scientist, April 2014 - February 2016}
+{}{}
+
+%\newpage
+
+\WorkExperience
+{}
+{Postdoctoral Fellowship at National Institutes of Health}
+{\newline Research Scientist, August 2011 - April 2014}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\SectionHead{\MakeUppercase{Committees served}}
+
+\WorkExperienceX
+{2021-Present}
+{National Science and Technology Council (NSTC) subcommittee on AI/ML}
+{CDC representative}
+
+\WorkExperienceX
+{2021-Present}
+{Federal Committee on Statistical Methodology (FCSM)}
+{Board Member}
+
+\WorkExperienceX
+{2021}
+{National Science and Technology Council (NSTC): Epidemic Modeling and Forecasting Fast Track Action Committee (FTAC)}
+{Contributor: Plan to Advance Data Innovation}
+
+\WorkExperienceX
+{2021}
+{Health and Human Services (HHS): Open Data Task Force}
+{Committee member}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
+
+\SectionHead{\MakeUppercase{Selected\\Publications}}
+\vspace{-1em}
+
+\subsection{Policy}
+
+\Paper
+{2023}
+{Dark citations to Federal resources and their contribution public health}
+{Jessica Keralis, Juan Albertorio-Díaz, \& Travis Hoppe}
+{}{Manuscript in preparation for the Proceedings of the National Academy of Sciences}
+
+\Paper
+{2023}
+{Application of a Novel Machine Learning Technique in a Bibliometric Analysis of Health Disparities Articles}
+{Pascaline Ezouah, Bao-Ping Zhu, \& Travis Hoppe}
+{}{Manuscript in preparation}
+
+\Paper
+{2019}
+{Topic Choice Contributes to Lower Rate of NIH Awards to African-American/Black Scientists}
+{Travis Hoppe, Aviva Litovitz, Kristine Willis, Rebecca Meseroll, Matthew Perkins, B. Ian Hutchins, Alison Davis, Michael Lauer, Hannah Valantine, James Anderson, \& George Santangelo}
+{https://advances.sciencemag.org/content/5/10/eaaw7238}
+{Science Advances}
+
+\subsection{Data Science}
+
+\Paper
+{2023}
+{Model Release: Semi-Automated Nonresponse Detection for Surveys (SANDS)}
+{Kristen Cibelli Hibben, Zachary Smith, Ben Rogers, Valerie Ryan, Travis Hoppe}
+{https://doi.org/10.57967/hf/0414}
+{Hugging Face}
+
+\Paper
+{2023}
+{Semi-Automated Nonresponse Detection for Open-text Survey Data}
+{Kristen Cibelli Hibben, Zachary Smith, Ben Rogers, Valerie Ryan, Travis Hoppe}
+{}
+{Under review: Social Science Computer Review}
+
+\Paper
+{2022}
+{Predicting causal citations without full text}
+{Travis Hoppe, Salsabil Arabi, Ian Hutchins}
+{https://www.biorxiv.org/content/10.1101/2022.07.05.498860v1}
+{bioRxiv}
+
+\Paper
+{2020}
+{The Pile: An 800GB Dataset of Diverse Text for Language Modeling}
+{Leo Gao, Stella Biderman, Travis Hoppe, \etal}
+{https://arxiv.org/abs/2101.00027}
+{arXiv}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\SectionHead{\MakeUppercase{Recent\\Conferences}}
+
+\WorkExperienceX
+{2023}
+{Health Datapalooza}
+{Panelist: Federal Health, Responsible \& Trustworthy AI: From Principles to Practice}
+
+\WorkExperienceX
+{2023}
+{Conference on Statistical Practice}
+{Speaker: Examination of Dark Citations of Federal Information and their Contribution to Research}
+
+\WorkExperienceX
+{2022}
+{General Services Administration AI Community of Practice}
+{Invited Speaker: Detecting Non-response and PII in Web-based Surveys}
+
+\WorkExperienceX
+{2021}
+{Federal Privacy Summit: Washington DC}
+{Panel Chair: Automated PII detection}
+
+\WorkExperienceX
+{2021}
+{Federal Committee on Statistical Methodology: Washington DC}
+{Presentation: Short communication as a medium: Is Engagement a substitute for efficacy?}
+
+\WorkExperienceX
+{2021}
+{Federal Committee on Statistical Methodology: Washington DC}
+{Presentation coauthor: Analysis of Open-text Time Reference Web Probes on a COVID-19 Survey}
+
+%\newpage
+
+\SectionHead{\MakeUppercase{Awards}}
+
+\WorkExperienceX
+{2022}
+{NCHS Director's Office Individual Merit Award}
+{Data modernization and workforce coordination around data science}
+
+\WorkExperienceX
+{2022}
+{NCHS Director's Office Group Merit Award}
+{Release of two trillion accelerometer data points to the public from the Physical Monitoring Team}
+
+\WorkExperienceX
+{2017}
+{NIH Office of the Director's Honor Award}
+{Outstanding support for the Grants Support Index \& Next Generation Research Initiative Analytical Team}
+
+
+\end{cleanCV}
+\end{document}
