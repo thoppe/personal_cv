@@ -106,7 +106,7 @@
     \MarginDate{#2}
     \PaperTitle{#3}, %
     \AuthorList{#4}, %
-    \PaperLink{#5}{#6}#1.\par%
+    \PaperLink{#5}{#6}#1\par%
   \end{minipage}
   \vspace{2\WorkExperienceskip}%
 }
@@ -167,9 +167,10 @@
 \newcommand{\WorkExperienceX}[3]{%
   \begin{minipage}{\textwidth}%
     \MarginDate{#1}%
-    \PaperTitle{#2}
-    \par%
-    \textit{#3}\par%
+    \PaperTitle{#2,}
+    %\par%
+    %\textit{#3}\par%
+    #3
  \end{minipage}%
  \vspace{\WorkExperienceXskip}%
 }
