@@ -1,6 +1,6 @@
 #current = jackson_resume
-#current = Travis_Hoppe_Federal_Resume
-current = Travis_Hoppe_Brief_Resume
+current = Travis_Hoppe_Federal_Resume
+#current = Travis_Hoppe_Brief_Resume
 
 #current = travis_teaching_philosophy
 #current = travis_curriculum_contribution
