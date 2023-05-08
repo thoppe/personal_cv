@@ -11,6 +11,8 @@
 
 ### Publications
 
++ Jessica Keralis,  Juan Albertorio-Díaz, Travis Hoppe. [Dark citations to Federal resources and their contribution to the public health literature](https://www.biorxiv.org/content/10.1101/2023.03.26.533809v1) bioRxiv:2023.03.26.533809 (2023)
+
 +  Ian Hutchins, Travis A. Hoppe, _et al._ [Predicting causal citations without full text](https://www.biorxiv.org/content/10.1101/2022.07.05.498860v1) bioRxiv:2022.07.05.498860 (2022)
 
 + Gao, Leo, Stella Biderman, Sid Black, Laurence Golding, Travis Hoppe, Charles Foster, Jason Phang et al. [The Pile: An 800GB Dataset of Diverse Text for Language Modeling.](https://arxiv.org/abs/2101.00027) Preprint, arXiv:2101.00027 (2020).
