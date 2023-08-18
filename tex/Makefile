@@ -1,5 +1,5 @@
 #current = jackson_resume
-current = Travis_Hoppe_Federal_Resume
+#current = Travis_Hoppe_Federal_Resume
 #current = Travis_Hoppe_Brief_Resume
 
 #current = travis_teaching_philosophy
@@ -10,6 +10,8 @@ current = Travis_Hoppe_Federal_Resume
 #current = travis_research_statment
 #current = travis_professional_resume
 #current = travis_cover_letter_OPA
+
+current = cara_resume
 
 all:
 	@make check
