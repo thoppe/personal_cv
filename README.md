@@ -11,7 +11,7 @@
 
 ### Publications
 
-+ Lisa Mirel, Darius Singpurwalla, Travis Hoppe, Rolf Schmitt, Julie Weber, Erika Liliedahl. [A Framework for Data Quality: Case Studies](https://doi.org/10.21949/1529869) {Federal Committee on Statistical Methodology (2024)
++ Lisa Mirel, Darius Singpurwalla, Travis Hoppe, Rolf Schmitt, Julie Weber, Erika Liliedahl. [A Framework for Data Quality: Case Studies](https://doi.org/10.21949/1529869) {Federal Committee on Statistical Methodology (2023)
 
 + Jessica Keralis,  Juan Albertorio-Díaz, Travis Hoppe. [Dark citations to Federal resources and their contribution to the public health literature](https://www.biorxiv.org/content/10.1101/2023.03.26.533809v1) bioRxiv:2023.03.26.533809 (2023) and [Frontiers in Research Metrics and Analytics](https://doi.org/10.3389/frma.2023.1235208).
 
