@@ -1,4 +1,4 @@
-current = Travis_Hoppe_CAIO_Resume
+current = Travis_Hoppe_AI_lead
 
 #current = Travis_Hoppe_Federal_Resume
 #current = Travis_Hoppe_Brief_Resume
@@ -35,6 +35,9 @@ master:
 #	cp bibliography/*.bib pdf
 #	cd pdf; bibtex travis_publication_list
 #	pdflatex -output-directory pdf travis_publication_list.tex
+
+Travis_Hoppe_AI_lead:
+	pdflatex -output-directory pdf Travis_Hoppe_AI_lead.tex
 
 Travis_Hoppe_CAIO_Resume:
 	pdflatex -output-directory pdf Travis_Hoppe_CAIO_Resume.tex
