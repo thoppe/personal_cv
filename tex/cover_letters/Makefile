@@ -1,12 +1,16 @@
-current = OPA_DPCPSI_text_mining
+current = AI_CZI_lead
+#current = OPA_DPCPSI_text_mining
 
 all:
 	@make check
 	make $(current)
 	evince pdf/$(current).pdf & 2>/dev/null 
 
-master:
-	make OPA_DPCPSI_text_mining
+#master:
+#	make OPA_DPCPSI_text_mining
+
+AI_CZI_lead:
+	pdflatex -output-directory pdf AI_CZI_lead.tex
 
 OPA_DPCPSI_text_mining:
 	pdflatex -output-directory pdf OPA_DPCPSI_text_mining.tex
