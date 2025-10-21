@@ -1,5 +1,6 @@
 ## [Travis Hoppe](http://thoppe.github.io/)
 
++ [AI Resume](tex/pdf/Travis_Hoppe_AI_lead.pdf?raw=true)
 + [Federal Resume](tex/pdf/Travis_Hoppe_Federal_Resume.pdf?raw=true)
 
 <!--
